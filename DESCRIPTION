@@ -7,9 +7,9 @@ Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 Imports: 
-    mojspeakr
+    mojspeakr, mojrap
 Remotes:  
-    moj-analytical-services/mojspeakr
+    moj-analytical-services/mojspeakr, moj-analytical-services/mojrap
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
