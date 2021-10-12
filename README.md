@@ -4,17 +4,27 @@ The `mojverse` is an ecosystem of packages containing functions useful for autom
 
 ## Installation
 
-To use packages within the `mojverse`, please install this package as follows: `remotes::install_github("moj-analytical-services/mojverse")`. This will automatically install all packages belonging to the `mojverse`.
+To use packages within the `mojverse`, please install it as follows: 
+````
+remotes::install_github("moj-analytical-services/mojverse") 
+````
+This will automatically install all packages belonging to the `mojverse`.
 
-## Usage
-
-To use functions from those packages, prefix the function name with the following: `[package_name]::function_name()`.
+## Packages within the mojverse
 
 Currently, the `mojverse` includes the following packages:
 
 * [mojrap](https://github.com/moj-analytical-services/mojrap): Generalised functions for RAP
 * [mojspeakr](https://github.com/moj-analytical-services/mojspeakr): Formatting RMarkdown into govspeak for publishing on gov.uk
 * [mojchart](https://github.com/moj-analytical-services/mojchart): Formatting ggplot2 charts and applying MoJ corporate colours
+
+## Usage
+
+To use functions from the above packages, prefix the function name with the following: 
+
+````
+[package_name]::function_name()
+````
 
 ## Contributing to the mojverse
 
